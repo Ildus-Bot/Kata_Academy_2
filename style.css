@@ -138,12 +138,34 @@ body {
 
 }
 
-.menu__contact-button-phone {
-    padding-top: 3px;
+.link {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+    border: none;
+    transition: all 0.2s ease-out;
 }
 
-.menu__contact-button-message {
-    padding-top: 4px;
+.menu__contact-link-phone > img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.menu__contact-link-message > img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.menu__contact-link-person > img {
+    position: absolute; 
+    top: 10px;
+    left: 10px;
 }
 
 .menu__contact-mail {
